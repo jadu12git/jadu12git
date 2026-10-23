@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150" role="img" aria-label="Animated introduction: Interested in solving problems? Me too. Interested in making impact? Me too.">
+  <title>Joseph Adu — What drives me</title>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; font-weight: 700; font-size: 36px; text-anchor: middle; dominant-baseline: middle; }
+    .line { opacity: 0; animation: sequence 10s infinite; }
+    .first { animation-delay: 0s; fill: #58a6ff; }
+    .second { animation-delay: -7.5s; fill: #3fb950; }
+    .third { animation-delay: -5s; fill: #58a6ff; }
+    .fourth { animation-delay: -2.5s; fill: #3fb950; }
+    @keyframes sequence {
+      0%, 3% { opacity: 0; transform: translateY(7px); }
+      8%, 20% { opacity: 1; transform: translateY(0); }
+      25%, 100% { opacity: 0; transform: translateY(-7px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .line { animation: none; opacity: 0; }
+      .first { opacity: 1; }
+    }
+  </style>
+  <text class="line first" x="450" y="75">Interested in solving problems?</text>
+  <text class="line second" x="450" y="75">Me too.</text>
+  <text class="line third" x="450" y="75">Interested in making impact?</text>
+  <text class="line fourth" x="450" y="75">Me too.</text>
+</svg>
