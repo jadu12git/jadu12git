@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hey, I'm Joseph Adu 👋
+<img src="./assets/animated-intro.svg" alt="Interested in solving problems? Me too. Interested in making impact? Me too." width="900" />
 
 ### Software Engineering Student • Builder • Curious Problem Solver
 
